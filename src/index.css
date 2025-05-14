@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --secondary-theme-color: #049e00;
+}
+
+/* Use the parrot green color as a global CSS variable */
+@layer base {
+  html {
+    --color-primary: #049e00;
+  }
+}
